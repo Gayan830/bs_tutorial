@@ -1,0 +1,60 @@
+h2 {
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 10;
+        }
+
+        ul li {
+
+            margin: 5px;
+        }
+
+        ul li>a {
+            padding: 20px;
+            background-color: rgb(5, 150, 5);
+            border: 3px solid rgb(255, 255, 255);
+            text-decoration: none;
+            color: white;
+        }
+
+        ol {
+            background-color: rgb(248, 201, 143);
+        }
+        img {
+            height: 200px;
+            width: 300px;
+        }
+        .container {
+            width: 500px;
+        }
+
+        .center {
+            margin: 0 auto 0 auto;
+        }
+
+        thead {
+            background-color: rgb(78, 117, 243);
+        }
+
+        table, 
+        th,
+        td {
+            border: 5px solid rgb(20, 20, 20);
+        }
+
+        .right {
+            float: right;
+        }
+
+        aside {
+            width: 40%;
+        }
+
+        footer {
+            display: flex;
+        }
