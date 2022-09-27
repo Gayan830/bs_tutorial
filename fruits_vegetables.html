@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Find out what nutrients are in most common Fruits and Vegetables.">
+    <meta name="keywords" content="Fruits, vegitable list, Fruit Vegetables vitamin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Fruits and Vegetables</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            width: 700px;
+        }
+
+        nav {
+            background-color: #2596be;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 10;
+        }
+
+        ul li {
+
+            margin: 5px;
+        }
+
+        ul li>a {
+            padding: 20px;
+            background-color: rgb(5, 150, 5);
+            border: 3px solid rgb(255, 255, 255);
+            text-decoration: none;
+            color: white;
+        }
+
+        ol {
+            background-color: rgb(248, 201, 143);
+        }
+        img {
+            height: 200px;
+            width: 300px;
+        }
+        .container {
+            width: 500px;
+        }
+
+        .center {
+            margin: 0 auto 0 auto;
+        }
+
+        thead {
+            background-color: rgb(78, 117, 243);
+        }
+
+        table, 
+        th,
+        td {
+            border: 5px solid rgb(20, 20, 20);
+        }
+
+        .right {
+            float: right;
+        }
+
+        aside {
+            width: 40%;
+        }
+
+        footer {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body class='center'>
+    <header>
+        <h1>Fruits and Vegetables</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#foods">Fruits and Vegetables</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-text">
+        <h2>Fruits and Vegetables contain lot of Vitamins, minerals.
+            Eating fresh food and Vegetables can protect you from cancer and heart diseases.
+        </h2>      
+    </main>
+    <section>
+        <div class="container center">
+            <figure>
+                <img src="Fruit_and_Vegetables.jpg" alt="Fruit and Vegetables">
+                <figcaption >Fruit and Vegetables</figcaption>
+            </figure>
+        </div>
+       
+        <div class="container center">
+            <b>List of common Fruits</b>
+            <ol id="veg-list">
+                <li>Banana</li>
+                <li>Mango</li>
+                <li>Guava</li>
+                <li>Jack Fruit</li>
+                <li>Grapes</li>
+            </ol>
+        </div>
+        <div class="container center">
+            <b>List of common Vegetables</b>
+            <ol id="fruit-list">
+                <li>Carrot</li>
+                <li>Beans</li>
+                <li>Chille</li>
+                <li>Potatoes</li>
+                <li>Tomatoes</li>
+            </ol>
+        </div>
+    </section>
+    <section>
+        <h1>Fruits Vitamins</h1>
+        <table class="center">
+            <thead>
+                <tr>
+                    <th colspan="2">Fruits Vitamin Table</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Vitamins and minerals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Banana</td>
+                    <td>Potassium, Vitamin B6, Vitamin C</td>
+                </tr>
+                <tr>
+                    <td>Mango</td>
+                    <td>Iron, Calcium, Vitamin C, Vitamin B6, Vitamin A</td>
+                </tr>
+                <tr>
+                    <td>Guava</td>
+                    <td>Calcium, Vitamin C, Vitamin D, Vitamin A</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <Footer>
+        <p><b>Contact the author of this page:</b></p>
+
+        <aside>
+            <address>
+                <a href="mailto:123@xyz.com">123@xyz.com</a><br>
+                <a href="tel:+000000000">(000) 000-0000</a>
+            </address>
+        </aside>
+    
+        <aside>
+            <address>
+                <b>Address:</b><br>
+                addres line 1<br>
+                addres line 2<br>
+                City, State
+            </address>
+        </aside>
+
+    </Footer>
+
+</body>
+
+</html>
